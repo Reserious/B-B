@@ -5,3 +5,7 @@ $(document).ready(function() {
 
    });
 });
+
+const alLangs = ['it','en'];
+let currentLang = 'it'
+const langButtons = document.querySelectorAll(".lingua");

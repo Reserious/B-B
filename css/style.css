@@ -96,6 +96,20 @@ p {
   position: relative;
 
 }
+.lingua {
+    top: 10px;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 3;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s linear, color 0.2s linear;
+}
+.lingua:hover {
+  color: white;
+}
 
 .nav__link {
   text-transform: uppercase;
@@ -192,7 +206,7 @@ p {
 }
 .info__suptitle {
       margin-top: 35px;
-      font-size: 14px;
+/*      font-size: 14px;*/
 }
 .mail,
 .tel {
@@ -265,9 +279,9 @@ p {
 
 }
 .servizi__item {
-  margin-top: 20px;
-  padding: 20px;
-  width: 30.3333%;
+  margin-top: 30px;
+  padding: 15px;
+  width: 33.3333%;
   text-align: center;
   transition: box-shadow 0.2s linear;
   margin-bottom: 45px;
@@ -288,11 +302,16 @@ p {
 }
 
 .servizi__photo {
-  max-width: 70%;
+  max-width: 95%;
 }
-.servizi__title,
+.servizi__title {
+  margin-top: 15px;
+  font-size: 22px;
+}
 .servizi__text {
   margin-top: 20px;
+/*  padding: 0 20px;*/
+  font-size: 20px;
 }
 
 /*CONTATTI*/
@@ -341,6 +360,17 @@ p {
   color: #ACACAC;
  
 }
+.punto_indirizzo {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.2s linear, color 0.2s linear;
+  transition: font-weight 0.2s linear, color 0.2s linear;
+}
+.punto_indirizzo:hover {
+  color: #787878c9;
+  font-weight: bolder;
+}
 
 .form__group {
       margin: 5px 0 15px 0;
@@ -363,13 +393,14 @@ p {
 
 }
 .info__title {
-  font-size: 16px;
+/*  font-size: 16px;*/
   
 }
 .contact__info {
+  font-size: 20px;
     padding: 65px 70px;
     background: #fafafa;
-    max-width: 470px;
+/*    max-width: 470px;*/
     line-height: 2
 }
 .map {
@@ -420,6 +451,9 @@ p {
       left: 0;
       transition: all .3s ease 0s;
 
+   }
+   .lingua {
+    position: relative;
    }
    .header__burger span {
     position: absolute;
@@ -496,6 +530,16 @@ p {
    .subtitle {
     font-size: 80px;
    }
+
+   .servizi__item {
+    width: 100%;
+   }
+   .servizi__photo {
+    max-width: 75%;
+   }
+   .contact__info {
+    padding:60px 50px 0px 50px;
+   }
 }
 
 @media(max-width: 445px) {
@@ -566,7 +610,7 @@ p {
 
 /*CONTATTI*/
 .contatti {
-  margin-top: 100px;
+  margin-top: 180px;
 }
 .contactus {
       flex-wrap: wrap-reverse;
