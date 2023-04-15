@@ -1,3 +1,5 @@
+// Burger Menu
+
 $(document).ready(function() {
    $('.header__burger').click(function(event) {
       $('.header__burger,.nav').toggleClass('active');
@@ -6,9 +8,24 @@ $(document).ready(function() {
    });
 });
 
-const alLangs = ['it','en'];
-let currentLang = 'it'
-const langButtons = document.querySelectorAll(".lingua");
+
+
+
+//Multi language
+
+
+
+// ACTIVE NAV BUTTON
+
+
+
+
+
+
+
+
+
+// SLIDER
 
 let slideIndex = 1;
 showSlides(slideIndex);
