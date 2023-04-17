@@ -572,7 +572,8 @@ p {
       height: 100px;
     }
     .header__logo {
-      margin-top: 20px;justify-content: left;
+      margin-top: 10px;
+/*      justify-content: left;*/
     }
    .header__burger {
     display: block;
@@ -681,7 +682,7 @@ p {
     max-width: 75%;
    }
    .contact__info {
-    padding:60px 50px 0px 50px;
+    padding:20px;
    }
 
    .slideshow-container {
@@ -702,6 +703,10 @@ p {
 }
 
 @media(max-width: 445px) {
+
+  .container {
+    padding: 0 10px;
+  }
 
   .header__burger{
     bottom: 60px;
@@ -724,13 +729,14 @@ p {
   font-size: 20px;
 }
 .intro__photo-img {
-    padding: 6px;
+    padding: 5px;
     width: 100%;
     
 }
 .intro__description {
    font-size: 20px;
     padding: 20px 0px 10px 0px;
+    text-align: center;
 }
 
 .subtitle {
