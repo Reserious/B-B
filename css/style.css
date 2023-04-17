@@ -365,6 +365,7 @@ p {
  
 }
 .punto_indirizzo {
+  font-weight: 900;
   text-decoration: none;
   cursor: pointer;
   color: black;
@@ -736,7 +737,7 @@ p {
 .intro__description {
    font-size: 20px;
     padding: 20px 0px 10px 0px;
-    text-align: center;
+/*    text-align: center;*/
 }
 
 .subtitle {
